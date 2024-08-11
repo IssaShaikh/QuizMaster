@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background:radial-gradient(circle,rgba(237, 35, 35, 0.756),rgb(255, 166, 0),yellow,rgb(41, 237, 41),rgb(59, 59, 207),rgb(154, 50, 227),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+#container{
+    height: 90vh;
+    width: 90vw;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+ 
+}
+
+.box{
+    height: 22vh;
+    width: 20vw;
+    border:7px double gainsboro;
+    border-radius: 30px;
+    margin-left: 76px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, green, yellow, blue);
+    color: black;   
+}
+
+.box:hover{
+   transform:scale(1.2);
+   cursor: pointer;
+   border:10px double white;
+}
+
+input[type="radio"]{
+transform: scale(1.5);
+margin-top: 20px;
+}
